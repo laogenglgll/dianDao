@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-public class DaKaInfoDao {
+public class  DaKaInfoDao {
     /**
      * 查询员工在指定日期是否打卡， 如果没有打卡，查询结果为空， 如果打过签到卡，就会返回一条打卡信息
      *

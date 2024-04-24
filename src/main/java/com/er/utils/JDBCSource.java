@@ -3,7 +3,7 @@ package com.er.utils;
 import java.sql.*;
 
 public class JDBCSource {
-    private static final String url = "jdbc:mysql://127.0.0.1:3309/firm2?useUnicode=true&characterEncoding=UTF-8&userSSL=false&serverTimezone=GMT%2B8";
+    private static final String url = "jdbc:mysql://127.0.0.1:3306/firm2?useUnicode=true&characterEncoding=UTF-8&userSSL=false&serverTimezone=GMT%2B8";
     private static final String use = "root";
     private static final String passWord = "root";
     public static Connection conn;
